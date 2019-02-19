@@ -99,3 +99,21 @@ body > div:not([class]) {min-height: 200px}
 	float: right;
 	width: 25%;
 }
+
+@media (min-width: 768px) {
+	.boxA:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.box2 {
+		float: left;
+		width: 70%;
+	}
+
+	.bo3 {
+		float: left;
+		width: 30%;
+	}
+}
